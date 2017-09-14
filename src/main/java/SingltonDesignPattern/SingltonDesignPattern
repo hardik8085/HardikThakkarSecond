@@ -1,0 +1,8 @@
+In some cases you dont want to create new instance of the class  if its already created, in that case singlton design pattern
+is useful.
+If you have class of account which manage all the details of the account and inside account we have one another object 
+transaction through which we can perform all transaction on account. For simplicity consider that we can just do one transaction per
+one transaction object.
+In this case we don't allow the user to create multiple transaction object to manage it consistently.
+So before creating transaction object we should make sure that if the transaction object is null then return same object 
+otherwise create new object and return it back.
