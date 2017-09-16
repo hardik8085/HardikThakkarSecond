@@ -1,9 +1,11 @@
-package SingltonDesignPattern;
+package singltontest;
 
 import static org.junit.Assert.*;
 
 import org.junit.Assert;
 import org.junit.Test;
+
+import SingltonDesignPattern.Transaction;
 
 public class TestCases {
 
